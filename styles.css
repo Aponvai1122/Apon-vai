@@ -1,0 +1,182 @@
+/* Reset and Base Styles */
+body {
+    font-family: Arial, sans-serif;
+        margin: 0;
+            padding: 0;
+                display: flex;
+                    flex-direction: column;
+                        align-items: center;
+                            min-height: 100vh;
+                                color: #202124;
+                                }
+
+                                /* Navigation Bar */
+                                .nav {
+                                    display: flex;
+                                        justify-content: flex-end;
+                                            align-items: center;
+                                                width: 100%;
+                                                    padding: 20px;
+                                                        box-sizing: border-box;
+                                                        }
+
+                                                        .nav a {
+                                                            margin-left: 15px;
+                                                                text-decoration: none;
+                                                                    color: #202124;
+                                                                        font-size: 13px;
+                                                                        }
+
+                                                                        .nav a:hover {
+                                                                            text-decoration: underline;
+                                                                            }
+
+                                                                            .sign-in {
+                                                                                background-color: #1a73e8;
+                                                                                    color: white !important;
+                                                                                        padding: 8px 15px;
+                                                                                            border-radius: 4px;
+                                                                                            }
+
+                                                                                            .sign-in:hover {
+                                                                                                text-decoration: none !important;
+                                                                                                    background-color: #1b66c9;
+                                                                                                        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+                                                                                                        }
+
+                                                                                                        /* Main Content */
+                                                                                                        .main {
+                                                                                                            display: flex;
+                                                                                                                flex-direction: column;
+                                                                                                                    align-items: center;
+                                                                                                                        margin-top: 100px;
+                                                                                                                            flex-grow: 1;
+                                                                                                                                width: 100%;
+                                                                                                                                }
+
+                                                                                                                                .logo {
+                                                                                                                                    margin-bottom: 30px;
+                                                                                                                                    }
+
+                                                                                                                                    .logo img {
+                                                                                                                                        width: 272px;
+                                                                                                                                            height: 92px;
+                                                                                                                                            }
+
+                                                                                                                                            /* Search Box */
+                                                                                                                                            .search-box {
+                                                                                                                                                display: flex;
+                                                                                                                                                    align-items: center;
+                                                                                                                                                        border: 1px solid #dfe1e5;
+                                                                                                                                                            border-radius: 24px;
+                                                                                                                                                                padding: 10px 15px;
+                                                                                                                                                                    width: 580px;
+                                                                                                                                                                        margin-bottom: 30px;
+                                                                                                                                                                        }
+
+                                                                                                                                                                        .search-box:hover {
+                                                                                                                                                                            box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+                                                                                                                                                                                border-color: rgba(223, 225, 229, 0);
+                                                                                                                                                                                }
+
+                                                                                                                                                                                .search-input {
+                                                                                                                                                                                    border: none;
+                                                                                                                                                                                        outline: none;
+                                                                                                                                                                                            width: 100%;
+                                                                                                                                                                                                font-size: 16px;
+                                                                                                                                                                                                    margin: 0 10px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .search-icon {
+                                                                                                                                                                                                        color: #9aa0a6;
+                                                                                                                                                                                                            font-size: 14px;
+                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                            .mic-icon, .camera-icon {
+                                                                                                                                                                                                                color: #4285f4;
+                                                                                                                                                                                                                    margin-left: 15px;
+                                                                                                                                                                                                                        cursor: pointer;
+                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                        /* Buttons */
+                                                                                                                                                                                                                        .buttons {
+                                                                                                                                                                                                                            margin-bottom: 30px;
+                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                            .btn {
+                                                                                                                                                                                                                                background-color: #f8f9fa;
+                                                                                                                                                                                                                                    border: 1px solid #f8f9fa;
+                                                                                                                                                                                                                                        border-radius: 4px;
+                                                                                                                                                                                                                                            color: #3c4043;
+                                                                                                                                                                                                                                                font-size: 14px;
+                                                                                                                                                                                                                                                    padding: 10px 16px;
+                                                                                                                                                                                                                                                        margin: 0 4px;
+                                                                                                                                                                                                                                                            cursor: pointer;
+                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                            .btn:hover {
+                                                                                                                                                                                                                                                                border: 1px solid #dadce0;
+                                                                                                                                                                                                                                                                    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+                                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                                    /* Language */
+                                                                                                                                                                                                                                                                    .language {
+                                                                                                                                                                                                                                                                        font-size: 13px;
+                                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                                        .language a {
+                                                                                                                                                                                                                                                                            text-decoration: none;
+                                                                                                                                                                                                                                                                                color: #1a0dab;
+                                                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                                                .language a:hover {
+                                                                                                                                                                                                                                                                                    text-decoration: underline;
+                                                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                                                    /* Footer */
+                                                                                                                                                                                                                                                                                    .footer {
+                                                                                                                                                                                                                                                                                        width: 100%;
+                                                                                                                                                                                                                                                                                            background-color: #f2f2f2;
+                                                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                                                            .footer-top {
+                                                                                                                                                                                                                                                                                                padding: 15px 30px;
+                                                                                                                                                                                                                                                                                                    border-bottom: 1px solid #dadce0;
+                                                                                                                                                                                                                                                                                                        font-size: 15px;
+                                                                                                                                                                                                                                                                                                            color: #70757a;
+                                                                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                                                                            .footer-bottom {
+                                                                                                                                                                                                                                                                                                                display: flex;
+                                                                                                                                                                                                                                                                                                                    justify-content: space-between;
+                                                                                                                                                                                                                                                                                                                        padding: 15px 30px;
+                                                                                                                                                                                                                                                                                                                            flex-wrap: wrap;
+                                                                                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                                                                                            .footer-bottom a {
+                                                                                                                                                                                                                                                                                                                                text-decoration: none;
+                                                                                                                                                                                                                                                                                                                                    color: #70757a;
+                                                                                                                                                                                                                                                                                                                                        font-size: 14px;
+                                                                                                                                                                                                                                                                                                                                            margin-right: 15px;
+                                                                                                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                                                                                                            .footer-bottom a:hover {
+                                                                                                                                                                                                                                                                                                                                                text-decoration: underline;
+                                                                                                                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                                                                                                                /* Responsive Design */
+                                                                                                                                                                                                                                                                                                                                                @media (max-width: 650px) {
+                                                                                                                                                                                                                                                                                                                                                    .search-box {
+                                                                                                                                                                                                                                                                                                                                                            width: 90%;
+                                                                                                                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                                                                                                                        .footer-bottom {
+                                                                                                                                                                                                                                                                                                                                                                                justify-content: center;
+                                                                                                                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                            .footer-left, .footer-right {
+                                                                                                                                                                                                                                                                                                                                                                                                    display: flex;
+                                                                                                                                                                                                                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                                                                                                                                                                                                                    margin-bottom: 10px;
+                                                                                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                                                                                        }
